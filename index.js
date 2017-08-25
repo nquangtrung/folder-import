@@ -9,6 +9,8 @@ var importFolder = function(folderName) {
       imported[name] = require(`${folderName}/${file}`);
     }
   });
+
+  return imported;
 };
 
 
